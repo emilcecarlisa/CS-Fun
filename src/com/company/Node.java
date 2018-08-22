@@ -7,7 +7,6 @@ public class Node {
     private int data;
     private Node nextNode;
 
-    //    this is a constructor for the class, must be named same as class
     public Node(int value) {
         data = value;
         nextNode = null;
