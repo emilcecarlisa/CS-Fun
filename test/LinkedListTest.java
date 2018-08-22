@@ -8,14 +8,14 @@ public class LinkedListTest {
     public static LinkedList list;
     private static Node head;
     public static Node second;
-//    public third = new Node(3);
+    public static Node third;
 
     @BeforeEach
     public void setValues() {
         list = new LinkedList();
         head = new Node(1);
         second = new Node(2);
-//       Node third = new Node(3);
+        third = new Node(3);
     }
 
     @Test
@@ -37,5 +37,13 @@ public class LinkedListTest {
         list.insertNode(second);
         assertEquals(list.getHeadNode(), head);
         assertEquals(list.getHeadNode().getNextNode(), second);
+    }
+
+    @Test
+    public void canGetValue() {
+        list.setHead(head);
+        list.insertNode(second);
+        list.insertNode(third); // overriding the second insertion
+        assertEquals(list.getValue(2), second.getData());
     }
 }
