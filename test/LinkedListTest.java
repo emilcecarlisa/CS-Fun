@@ -6,44 +6,58 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListTest {
     public static LinkedList list;
-    private static Node head;
+    private static Node first;
     public static Node second;
-    public static Node third;
+    public static Node x;
 
     @BeforeEach
     public void setValues() {
         list = new LinkedList();
-        head = new Node(1);
+        first = new Node(1);
         second = new Node(2);
-        third = new Node(3);
-    }
-
-    @Test
-    public void canSetHead() {
-        list.setHead(head);
-        assertEquals(list.getHeadNode(), head);
+        x = new Node(3);
     }
 
     @Test
     public void canGetHead() {
-        list.setHead(head);
+        list.setHead(first);
         Node data = list.getHeadNode();
-        assertEquals( head, data);
+        assertEquals(first, data);
+    }
+
+    @Test
+    public void canSetHead() {
+        list.setHead(first);
+        assertEquals(list.getHeadNode(), first);
     }
 
     @Test
     public void canInsertNode() {
-        list.setHead(head);
-        list.insertNode(second);
-        assertEquals(list.getHeadNode(), head);
-        assertEquals(list.getHeadNode().getNextNode(), second);
+        list.setHead(first);
+        first.setNextNode(second);
+        list.insertNode(x);
+        assertEquals(list.getHeadNode(), x);
     }
 
     @Test
     public void canGetValue() {
-        list.setHead(head);
-        list.insertNode(second);
-        list.insertNode(third); // overriding the second insertion
+        list.setHead(first);
+        first.setNextNode(second);
         assertEquals(list.getValue(2), second.getData());
     }
+
+    @Test
+    public Boolean canFindValue() {
+        list.setHead(first);
+        first.setNextNode(second);
+        assertEquals(list.findValue(2), true);
+    }
+
+//    @Test
+//    public void canDeleteValue() {
+//        list.setHead(first);
+//        first.setNextNode(second);
+//        second.setNextNode(x);
+//        list.deleteNode(x);
+//    }
 }

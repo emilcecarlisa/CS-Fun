@@ -16,7 +16,9 @@ public class LinkedList {
     public Node getHeadNode() { return head; }
 
     public void insertNode(Node node) {
-        head.setNextNode(node);
+//        head.setNextNode(node);
+        node.setNextNode(head);
+        head = node;
     }
 
     public int getValue(int index) {
@@ -31,7 +33,6 @@ public class LinkedList {
         }
 
         return head.getData();
-
     }
 
 }

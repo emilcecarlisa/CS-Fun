@@ -33,25 +33,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="899" />
+          <entry key="java" value="1400" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="899" />
+          <entry key="JAVA" value="1400" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3998378">
+    <splitter split-orientation="horizontal" split-proportion="0.41059095">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -59,13 +59,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+                <state relative-caret-position="298">
+                  <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
                   <folding>
                     <element signature="e#147#148#0" expanded="true" />
                     <element signature="e#174#175#0" expanded="true" />
-                    <element signature="e#407#408#0" expanded="true" />
-                    <element signature="e#433#434#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="332">
-                  <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+                <state relative-caret-position="291">
+                  <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -181,7 +179,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534910435412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535063268050" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -265,32 +263,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534819874003</updated>
-      <workItem from="1534819900012" duration="8832000" />
+      <workItem from="1534819900012" duration="16180000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_canInsertNode - 2018.08.21 at 19h 49m 29s.xml">
-      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canInsertNode - 2018.08.21 at 19h 50m 08s.xml">
-      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canInsertNode - 2018.08.21 at 19h 50m 36s.xml">
-      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canInsertNode - 2018.08.21 at 19h 50m 50s.xml">
-      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 47m 56s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 50m 20s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 51m 00s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 55m 10s.xml">
       <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
     </history-entry>
@@ -300,9 +277,30 @@
     <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 56m 08s.xml">
       <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 33m 50s.xml">
+      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 34m 09s.xml">
+      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 36m 25s.xml">
+      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canInsertNode - 2018.08.23 at 15h 06m 02s.xml">
+      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canInsertNode - 2018.08.23 at 15h 15m 43s.xml">
+      <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canGetValue - 2018.08.23 at 15h 16m 47s.xml">
+      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canGetValue - 2018.08.23 at 15h 17m 18s.xml">
+      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8832000" />
+    <option name="totallyTimeSpent" value="16180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -322,7 +320,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32611465" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36178344" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3821656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,18 +342,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/LinkedListTest.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -369,30 +355,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+        <state relative-caret-position="291">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
