@@ -16,7 +16,6 @@ public class LinkedList {
     public Node getHeadNode() { return head; }
 
     public void insertNode(Node node) {
-//        head.setNextNode(node);
         node.setNextNode(head);
         head = node;
     }
@@ -33,6 +32,16 @@ public class LinkedList {
         }
 
         return head.getData();
+    }
+
+    public Boolean findValue(int value) {
+        if (head == null) { return false; }
+
+        while (head.getData() != value) {
+            head = head.getNextNode();
+        }
+
+        return true;
     }
 
 }

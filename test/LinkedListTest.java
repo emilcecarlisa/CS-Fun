@@ -47,7 +47,7 @@ public class LinkedListTest {
     }
 
     @Test
-    public Boolean canFindValue() {
+    public void canFindValue() {
         list.setHead(first);
         first.setNextNode(second);
         assertEquals(list.findValue(2), true);
