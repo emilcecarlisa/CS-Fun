@@ -1,7 +1,7 @@
 package com.company;
 
 public class LinkedList {
-    private Node head;
+    private static Node head;
 
 //    public static void main(String[] args) { };
 
@@ -34,7 +34,7 @@ public class LinkedList {
         return head.getData();
     }
 
-    public Boolean findValue(int value) {
+    public static Boolean findValue(int value) {
         if (head == null) { return false; }
 
         while (head.getData() != value) {
@@ -42,6 +42,15 @@ public class LinkedList {
         }
 
         return true;
+    }
+
+    public Boolean deleteValue(int value) {
+        if (head == null) { return false;}
+
+        if (findValue(value) == false) {
+            return false;
+        }
+        else {return true;}
     }
 
 }

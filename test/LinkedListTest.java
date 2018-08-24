@@ -53,11 +53,19 @@ public class LinkedListTest {
         assertEquals(list.findValue(2), true);
     }
 
-//    @Test
-//    public void canDeleteValue() {
-//        list.setHead(first);
-//        first.setNextNode(second);
-//        second.setNextNode(x);
-//        list.deleteNode(x);
-//    }
+    @Test
+    public void deleteValue() {
+        list.setHead(first);
+        first.setNextNode(second);
+        second.setNextNode(x);
+        assertEquals(list.deleteValue(2), true);
+    }
+
+    @Test
+    public void returnFalseIfValueNotFound() {
+        list.setHead(first);
+        first.setNextNode(second);
+        second.setNextNode(x);
+        assertEquals(list.deleteValue(4), false);
+    }
 }

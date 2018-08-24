@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4208e1-f82d-400e-9a44-3c04f125e7c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1598" />
+          <entry key="java" value="2093" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1598" />
+          <entry key="JAVA" value="2093" />
         </counts>
       </usages-collector>
     </session>
@@ -57,8 +59,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+                <state relative-caret-position="334">
+                  <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
                   <folding>
                     <element signature="e#147#148#0" expanded="true" />
                     <element signature="e#174#175#0" expanded="true" />
@@ -74,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
-                  <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+                <state relative-caret-position="258">
+                  <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -117,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/NodeTest.java" />
         <option value="$PROJECT_DIR$/test/NodeTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Node.java" />
-        <option value="$PROJECT_DIR$/test/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/LinkedList.java" />
+        <option value="$PROJECT_DIR$/test/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -177,7 +179,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535064527516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535069439752" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -208,16 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.canFindValue">
-    <configuration name="Debug" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Node" />
-      <module name="SinglyLL" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListTest.returnFalseIfValueNotFound">
     <configuration name="LinkedListTest.canFindValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SinglyLL" />
       <option name="PACKAGE_NAME" value="" />
@@ -238,28 +231,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.canInsertNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.deleteValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SinglyLL" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="canInsertNode" />
+      <option name="METHOD_NAME" value="deleteValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.returnFalseIfValueNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SinglyLL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="returnFalseIfValueNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SinglyLL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="returnFalseIfValueToBeDeletedNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Debug" />
-      <item itemvalue="JUnit.LinkedListTest.canInsertNode" />
       <item itemvalue="JUnit.LinkedListTest.canGetValue" />
       <item itemvalue="JUnit.LinkedListTest.canFindValue" />
+      <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueToBeDeletedNotFound" />
+      <item itemvalue="JUnit.LinkedListTest.deleteValue" />
+      <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueNotFound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueNotFound" />
+        <item itemvalue="JUnit.LinkedListTest.deleteValue" />
+        <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueToBeDeletedNotFound" />
         <item itemvalue="JUnit.LinkedListTest.canFindValue" />
         <item itemvalue="JUnit.LinkedListTest.canGetValue" />
-        <item itemvalue="JUnit.LinkedListTest.canInsertNode" />
-        <item itemvalue="Application.Debug" />
       </list>
     </recent_temporary>
   </component>
@@ -273,29 +288,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534819874003</updated>
-      <workItem from="1534819900012" duration="17390000" />
+      <workItem from="1534819900012" duration="20008000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 55m 10s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 55m 57s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.21 at 20h 56m 08s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 33m 50s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 34m 09s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.22 at 20h 36m 25s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_canInsertNode - 2018.08.23 at 15h 06m 02s.xml">
       <configuration name="LinkedListTest.canInsertNode" configurationId="JUnit" />
     </history-entry>
@@ -308,9 +305,27 @@
     <history-entry file="LinkedListTest_canGetValue - 2018.08.23 at 15h 17m 18s.xml">
       <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest_canFindValue - 2018.08.23 at 15h 48m 52s.xml">
+      <configuration name="LinkedListTest.canFindValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnFalseIfValueToBeDeletedNotFound - 2018.08.23 at 17h 06m 02s.xml">
+      <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnFalseIfValueToBeDeletedNotFound - 2018.08.23 at 17h 06m 31s.xml">
+      <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnFalseIfValueToBeDeletedNotFound - 2018.08.23 at 17h 06m 36s.xml">
+      <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_deleteValue - 2018.08.23 at 17h 09m 10s.xml">
+      <configuration name="LinkedListTest.deleteValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnFalseIfValueNotFound - 2018.08.23 at 17h 09m 59s.xml">
+      <configuration name="LinkedListTest.returnFalseIfValueNotFound" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17390000" />
+    <option name="totallyTimeSpent" value="20008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -372,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="334">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#147#148#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
@@ -383,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="258">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
