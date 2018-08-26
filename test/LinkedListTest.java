@@ -58,7 +58,7 @@ public class LinkedListTest {
         list.setHead(first);
         first.setNextNode(second);
         second.setNextNode(x);
-        assertEquals(list.deleteValue(2), true);
+        assertEquals(list.deleteNode(2), true);
     }
 
     @Test
@@ -66,6 +66,6 @@ public class LinkedListTest {
         list.setHead(first);
         first.setNextNode(second);
         second.setNextNode(x);
-        assertEquals(list.deleteValue(4), false);
+        assertEquals(list.deleteNode(4), false);
     }
 }

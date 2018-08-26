@@ -2,7 +2,6 @@ package com.company;
 
 public class LinkedList {
     private static Node head;
-
 //    public static void main(String[] args) { };
 
     public LinkedList() {
@@ -44,13 +43,26 @@ public class LinkedList {
         return true;
     }
 
-    public Boolean deleteValue(int value) {
-        if (head == null) { return false;}
+    public Boolean deleteNode(int value) {
+        Node temp = head;
+        Node prev = null;
 
-        if (findValue(value) == false) {
-            return false;
+        if (head == null) { return false;}
+        if (temp != null && temp.getData() == value) {
+            head = temp.getNextNode();
+            return true;
         }
-        else {return true;}
+
+        while (temp != null && temp.getData() != value) {
+            prev = temp;
+            temp = temp.getNextNode();
+        }
+
+        if (temp == null) {return false;}
+
+        Node next = prev.getNextNode();
+        next = temp.getNextNode();
+        return true;
     }
 
 }
