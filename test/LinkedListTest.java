@@ -45,7 +45,7 @@ public class LinkedListTest {
         first.setNextNode(second);
         assertEquals(list.getValue(2), second.getData());
     }
-
+//
     @Test
     public void canFindValue() {
         list.setHead(first);

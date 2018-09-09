@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4208e1-f82d-400e-9a44-3c04f125e7c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SinglyLL/com/company/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SinglyLL/com/company/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,47 +25,59 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2498" />
+          <entry key="java" value="3917" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2498" />
+          <entry key="JAVA" value="3917" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4614761">
+    <splitter split-orientation="horizontal" split-proportion="0.49821642">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="885">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
+                  <folding>
+                    <element signature="e#147#148#0" expanded="true" />
+                    <element signature="e#174#175#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Queue.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="165">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
                   <folding>
-                    <element signature="e#147#148#0" expanded="true" />
-                    <element signature="e#174#175#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -72,11 +87,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+                <state relative-caret-position="167">
+                  <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/QueueTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -117,9 +144,12 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/NodeTest.java" />
         <option value="$PROJECT_DIR$/test/NodeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LinkedList.java" />
         <option value="$PROJECT_DIR$/test/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/QueueEx.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Queue.java" />
+        <option value="$PROJECT_DIR$/test/QueueTest.java" />
       </list>
     </option>
   </component>
@@ -130,9 +160,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="342" />
+    <option name="x" value="14" />
     <option name="y" value="23" />
-    <option name="width" value="1098" />
+    <option name="width" value="1330" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -179,7 +209,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535321207798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536527956302" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -210,22 +240,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.returnFalseIfValueNotFound">
+  <component name="RunManager" selected="JUnit.QueueTest.canCreateEmptyQueue">
     <configuration name="LinkedListTest.canFindValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SinglyLL" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
       <option name="METHOD_NAME" value="canFindValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.canGetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SinglyLL" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="canGetValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,20 +281,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueTest.canCreateEmptyQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SinglyLL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="METHOD_NAME" value="canCreateEmptyQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.LinkedListTest.canGetValue" />
       <item itemvalue="JUnit.LinkedListTest.canFindValue" />
       <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueToBeDeletedNotFound" />
       <item itemvalue="JUnit.LinkedListTest.deleteValue" />
       <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueNotFound" />
+      <item itemvalue="JUnit.QueueTest.canCreateEmptyQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.canCreateEmptyQueue" />
         <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueNotFound" />
         <item itemvalue="JUnit.LinkedListTest.deleteValue" />
         <item itemvalue="JUnit.LinkedListTest.returnFalseIfValueToBeDeletedNotFound" />
         <item itemvalue="JUnit.LinkedListTest.canFindValue" />
-        <item itemvalue="JUnit.LinkedListTest.canGetValue" />
       </list>
     </recent_temporary>
   </component>
@@ -288,23 +318,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534819874003</updated>
-      <workItem from="1534819900012" duration="25667000" />
+      <workItem from="1534819900012" duration="39591000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.23 at 15h 16m 47s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canGetValue - 2018.08.23 at 15h 17m 18s.xml">
-      <configuration name="LinkedListTest.canGetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canFindValue - 2018.08.23 at 15h 48m 52s.xml">
-      <configuration name="LinkedListTest.canFindValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_returnFalseIfValueToBeDeletedNotFound - 2018.08.23 at 17h 06m 02s.xml">
-      <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_returnFalseIfValueToBeDeletedNotFound - 2018.08.23 at 17h 06m 31s.xml">
       <configuration name="LinkedListTest.returnFalseIfValueToBeDeletedNotFound" configurationId="JUnit" />
     </history-entry>
@@ -323,12 +341,24 @@
     <history-entry file="LinkedListTest_returnFalseIfValueNotFound - 2018.08.26 at 15h 05m 21s.xml">
       <configuration name="LinkedListTest.returnFalseIfValueNotFound" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueueTest_canCreateEmptyQueue - 2018.09.02 at 12h 38m 12s.xml">
+      <configuration name="QueueTest.canCreateEmptyQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_canCreateEmptyQueue - 2018.09.02 at 12h 40m 23s.xml">
+      <configuration name="QueueTest.canCreateEmptyQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_canCreateEmptyQueue - 2018.09.09 at 14h 18m 18s.xml">
+      <configuration name="QueueTest.canCreateEmptyQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_canCreateEmptyQueue - 2018.09.09 at 14h 18m 56s.xml">
+      <configuration name="QueueTest.canCreateEmptyQueue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25667000" />
+    <option name="totallyTimeSpent" value="39591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="342" y="23" width="1098" height="877" extended-state="0" />
+    <frame x="14" y="23" width="1330" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -336,7 +366,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.06795422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02173913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.25987262" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -345,8 +375,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36178344" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3821656" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36178344" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25859872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,17 +408,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/QueueEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="885">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#147#148#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
@@ -396,10 +453,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/test/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
